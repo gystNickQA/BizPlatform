@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d14d34f8-0a0d-4adf-99a5-08e064920464" name="Default" comment="0.1 version">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="c85f9ee1-c22c-489a-aea7-882dcf4f72fb" name="Failed commit: Default" comment="0.1 version">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SmokeTest/BizCommon.java" />
@@ -118,6 +118,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="gystNickQA&lt;water_filter@mai..." />
         <option value="gystNickQA&lt;water_filter@mail.ru&gt;" />
         <option value="water_filter@mail.ru" />
         <option value="gystNickQA" />
@@ -639,17 +640,21 @@
       <workItem from="1450261124479" duration="4732000" />
       <workItem from="1453734157474" duration="704000" />
       <workItem from="1453734935097" duration="170000" />
-      <workItem from="1453735110035" duration="1206000" />
+      <workItem from="1453735110035" duration="1281000" />
     </task>
     <task id="LOCAL-00001" summary="0.1 version">
       <created>1453736323962</created>
       <updated>1453736323962</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="0.1 version">
+      <created>1453736334426</created>
+      <updated>1453736334426</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168769000" />
+    <option name="totallyTimeSpent" value="168844000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
