@@ -9,14 +9,15 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-        //Login.class,
-        //OpeningTime.class,
-        //Services.class,
-        //Resources.class,
-        //Specialists.class,
-        //Settings.class,
+        Login.class,
+        OpeningTime.class,
+        Services.class,
+        Resources.class,
+        Specialists.class,
+        Settings.class,
         Booking.class,
-        //MobileBuilder.class,
+        MobileBuilder.class,
+        MobileBuilder.class,
 })
 
 public class SmokeTestSuite {
