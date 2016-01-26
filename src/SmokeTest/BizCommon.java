@@ -30,7 +30,7 @@ public class BizCommon {
     protected String managerEmail = "email3@test.com";
     protected String managerPass = "email3";
     protected String business = "Autoservice";
-    public static final int WAITFOR_TIMEOUT = 30; //The amount of time to wait for a given operation1
+    public static final int WAITFOR_TIMEOUT = 30; //The amount of time to wait for a given operation
     protected StringBuffer verificationErrors = new StringBuffer();
 
     public static class Business{
