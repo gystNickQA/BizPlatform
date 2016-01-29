@@ -26,7 +26,7 @@ public class BizCommon {
     protected static WebDriver driver;
     protected String baseUrl = "http://bizplatform.co";
     protected String email = "water_filter@mail.ru";
-    protected String password = "1";
+    protected String password = "3";
     protected String managerEmail = "email3@test.com";
     protected String managerPass = "email3";
     protected String business = "Autoservice";
@@ -175,7 +175,7 @@ public class BizCommon {
 
     public static void logIn(String login, String password) throws Exception {
         //LOG IN
-        WebElement el = BizCommon.waitForVisible(driver, By.xpath("//*[@id='btn2-dropdownMenu2']"));
+        WebElement el = BizCommon.waitForVisible(driver, By.xpath("//nav[@id='nav']//*[@id='btn-dropdownMenu2']"));
         el.click();//Select language
         el = BizCommon.waitForVisible(driver, By.xpath("//*[@id='nav']//a[contains(@href,'lang=2')]"));
         el.click();//EN
@@ -195,13 +195,14 @@ public class BizCommon {
         WebElement el = BizCommon.waitForVisible(driver, By.xpath("//*[contains(@class,'k-today')][" + numberDayOfWeek + "]/strong[contains(text(),'" + startHour + ":00')]"));
         el.click(); //click on time
         Thread.sleep(2000); //wait 2 sec
-        for(int i =1; i <endHour-startHour; i++)
+        for(int i =1; i < endHour-startHour; i++)
         {
             el = BizCommon.waitForVisible(driver, By.xpath("//table[@ng-model='dataItem.end']//a[@ng-click='incrementHours()']"));
             el.click(); //increment hours +1
         }
         el = BizCommon.waitForVisible(driver, By.xpath("//*[@ng-click='schedulerCtrl.saveEvent(dataItem)']"));
         el.click(); //Save
+        Thread.sleep(2000); //wait 2 sec
     }
 
     public static void addBooking(String category, int numberResource, int startHour, String clientName, String phoneNumber, String email, String service) throws Exception {
@@ -241,7 +242,7 @@ public class BizCommon {
     }
 
     public static void saveAsTemplate(String templateName, String templateDescription) throws Exception {
-        WebElement el = BizCommon.waitForVisible(driver, By.xpath("//button[@id='single-button']"));
+        WebElement el = BizCommon.waitForVisible(driver, By.xpath("//div[@class='btn-group responsive-dropdown dropdown']"));
         el.click();//click to open add menu
         el = BizCommon.waitForVisible(driver, By.xpath("//*[@ng-click='schedulerCtrl.saveAsTemplate()']"));
         el.click();//click save as template
@@ -251,10 +252,11 @@ public class BizCommon {
         el = BizCommon.waitForVisible(driver, By.xpath("//textarea[@ng-model='saveAsTemplateCtrl.description']"));
         el.clear();
         el.sendKeys(templateDescription);//enter template description
-        el = BizCommon.waitForVisible(driver, By.xpath("//*[@ng-click='saveAsTemplateCtrl.saveMethod()']"));
+        el = BizCommon.waitForVisible(driver, By.xpath("//*[contains(@ng-click,'saveAsTemplateCtrl.saveMethod')]"));
         el.click();//click Save
+        Thread.sleep(1000); //waiting for saving
         //check result
-        el = BizCommon.waitForVisible(driver, By.xpath("//button[@id='single-button']"));
+        el = BizCommon.waitForVisible(driver, By.xpath("//div[@class='btn-group responsive-dropdown dropdown']"));
         el.click();//click to open add menu
         el = BizCommon.waitForVisible(driver, By.xpath("//*[@ng-click='schedulerCtrl.copyFromTemplate()']"));
         el.click();//click copy From Template
@@ -265,7 +267,7 @@ public class BizCommon {
     }
 
     public static void copyFromTemplate(String templateName) throws Exception {
-        WebElement el = BizCommon.waitForVisible(driver, By.xpath("//button[@id='single-button']"));
+        WebElement el = BizCommon.waitForVisible(driver, By.xpath("//div[@class='btn-group responsive-dropdown dropdown']"));
         el.click();//click to open add menu
         el = BizCommon.waitForVisible(driver, By.xpath("//*[@ng-click='schedulerCtrl.copyFromTemplate()']"));
         el.click();//click copy From Template
@@ -274,17 +276,21 @@ public class BizCommon {
     }
 
     public static void deleteTemplate(String templateName) throws Exception {
-        WebElement el = BizCommon.waitForVisible(driver, By.xpath("//button[@id='single-button']"));
+        WebElement el = BizCommon.waitForVisible(driver, By.xpath("//div[@class='btn-group responsive-dropdown dropdown']"));
         el.click();//click to open add menu
         el = BizCommon.waitForVisible(driver, By.xpath("//*[@ng-click='schedulerCtrl.copyFromTemplate()']"));
         el.click();//click copy From Template
-        el = BizCommon.waitForVisible(driver, By.xpath("//i[@class='glyphicon glyphicon-remove'][preceding::td[contains(text(),'" + templateName + "')]]"));
+        Thread.sleep(3000); //wait 1 sec
+        el = BizCommon.waitForVisible(driver, By.xpath("//button[@class='btn'][preceding::td[contains(text(),'" + templateName + "')]]"));
         el.click(); //click to delete Template1
+        el = BizCommon.waitForVisible(driver, By.xpath("//*[@ng-click='copyFromTemplateCtrl.cancelMethod()']"));
+        el.click();//click Cancel
     }
 
 
     @After
     public void tearDown() throws Exception {
+        System.out.println("Quite driver");
         driver.quit();
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {

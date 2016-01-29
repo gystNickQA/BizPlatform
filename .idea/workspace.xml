@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d14d34f8-0a0d-4adf-99a5-08e064920464" name="Default" comment="0.1 version">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="d14d34f8-0a0d-4adf-99a5-08e064920464" name="Default" comment="0.2 version">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SmokeTest/BizCommon.java" afterPath="$PROJECT_DIR$/src/SmokeTest/BizCommon.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Bizz.iml" afterPath="$PROJECT_DIR$/Bizz.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SmokeTest/Login.java" afterPath="$PROJECT_DIR$/src/SmokeTest/Login.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SmokeTest/OpeningTime.java" afterPath="$PROJECT_DIR$/src/SmokeTest/OpeningTime.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SmokeTest/Services.java" afterPath="$PROJECT_DIR$/src/SmokeTest/Services.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SmokeTest/SmokeTestSuite.java" afterPath="$PROJECT_DIR$/src/SmokeTest/SmokeTestSuite.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TimeSelect.java" afterPath="$PROJECT_DIR$/src/TimeSelect.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\QA\Projects\BizPlatform\TestCases\Automated\Bizz\.idea\libraries\selenium_server_standalone_2_47_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/selenium_server_standalone_2_50_0.xml" />
     </list>
     <list id="c85f9ee1-c22c-489a-aea7-882dcf4f72fb" name="Failed commit: Default" comment="0.1 version" />
     <ignored path="Bizz.iws" />
@@ -15,6 +22,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -72,25 +84,34 @@
       <file leaf-file-name="BizCommon.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SmokeTest/BizCommon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="18" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4845">
+            <state line="282" column="40" selection-start="13790" selection-end="13790" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="4947">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SmokeTestSuite.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SmokeTestSuite.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SmokeTest/SmokeTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="11" selection-start="186" selection-end="186" vertical-scroll-proportion="0.28619528" vertical-offset="0" max-vertical-offset="594">
+            <state line="13" column="11" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Booking.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SmokeTest/Booking.java">
+      <file leaf-file-name="Services.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SmokeTest/Services.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="61" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+            <state line="54" column="67" selection-start="2383" selection-end="2383" vertical-scroll-proportion="0.4184874" vertical-offset="601" max-vertical-offset="1819">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpeningTime.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SmokeTest/OpeningTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="34" selection-start="453" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
               <folding />
             </state>
           </provider>
@@ -136,21 +157,22 @@
         <option value="$PROJECT_DIR$/src/com/example/tests/BookingTime.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/BookingTime.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/Settings.java" />
-        <option value="$PROJECT_DIR$/src/SmokeTest/Login.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/Services2.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/Business.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/Timeselect.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/TimeSelect.java" />
-        <option value="$PROJECT_DIR$/src/SmokeTest/OpeningTime.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/SmokeTestSuit.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/SmokeTestRunner.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/Resources.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/Specialists.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/Booking.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/MobileBuilder.java" />
-        <option value="$PROJECT_DIR$/src/SmokeTest/Services.java" />
+        <option value="$PROJECT_DIR$/src/TimeSelect.java" />
+        <option value="$PROJECT_DIR$/src/SmokeTest/Login.java" />
+        <option value="$PROJECT_DIR$/src/SmokeTest/OpeningTime.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/BizCommon.java" />
         <option value="$PROJECT_DIR$/src/SmokeTest/SmokeTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/SmokeTest/Services.java" />
       </list>
     </option>
   </component>
@@ -252,7 +274,7 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Selenium/selenium-server-standalone-2.50.0.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -561,10 +583,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="3">
+    <configuration default="false" name="TimeSelect" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Bizz" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TimeSelect" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SmokeTest" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TimeSelect" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Services" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TimeSelect" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TimeSelect" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Services" />
     </list>
     <recent_temporary>
       <list size="2">
@@ -631,7 +677,11 @@
       <workItem from="1453734935097" duration="170000" />
       <workItem from="1453735110035" duration="1549000" />
       <workItem from="1453736678343" duration="159000" />
-      <workItem from="1453792012816" duration="1061000" />
+      <workItem from="1453792012816" duration="3674000" />
+      <workItem from="1454061824549" duration="967000" />
+      <workItem from="1454062845608" duration="163000" />
+      <workItem from="1454063077053" duration="684000" />
+      <workItem from="1454064185727" duration="10084000" />
     </task>
     <task id="LOCAL-00001" summary="0.1 version">
       <created>1453736323962</created>
@@ -661,13 +711,21 @@
       <created>1453792571959</created>
       <updated>1453792571959</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="0.2 version">
+      <created>1453793107515</created>
+      <updated>1453793107515</updated>
+    </task>
+    <task id="LOCAL-00009" summary="0.2 version">
+      <created>1453793671422</created>
+      <updated>1453793671422</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170332000" />
+    <option name="totallyTimeSpent" value="184843000" />
   </component>
-  <component name="TodoView" selected-index="0">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <are-packages-shown value="false" />
       <are-modules-shown value="false" />
@@ -689,29 +747,29 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39915523" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16773163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16773163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1736" height="856" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -762,7 +820,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="0.1 version" />
-    <option name="LAST_COMMIT_MESSAGE" value="0.1 version" />
+    <MESSAGE value="0.2 version" />
+    <option name="LAST_COMMIT_MESSAGE" value="0.2 version" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="VssConfiguration">
@@ -819,20 +878,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SmokeTest/BizCommon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="243" column="43" selection-start="11287" selection-end="11287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4845">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SmokeTest/SmokeTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="10" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SmokeTest/Booking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="1239" selection-end="1239" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="731">
@@ -1075,37 +1120,9 @@
         <state line="136" column="19" selection-start="5187" selection-end="5187" vertical-scroll-proportion="-1.2979798" vertical-offset="1417" max-vertical-offset="33592" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TimeSelect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="107" selection-end="107" vertical-scroll-proportion="0.22895622" vertical-offset="0" max-vertical-offset="594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SmokeTest/OpeningTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="52" selection-start="497" selection-end="497" vertical-scroll-proportion="0.5151515" vertical-offset="0" max-vertical-offset="1292">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SmokeTest/Specialists.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="69" selection-start="462" selection-end="462" vertical-scroll-proportion="0.37205386" vertical-offset="0" max-vertical-offset="1394">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SmokeTest/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="80" selection-start="618" selection-end="626" vertical-scroll-proportion="0.46296296" vertical-offset="65" max-vertical-offset="986">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SmokeTest/Resources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="13" selection-start="295" selection-end="295" vertical-scroll-proportion="0.22895622" vertical-offset="0" max-vertical-offset="1394">
           <folding />
         </state>
       </provider>
@@ -1120,13 +1137,6 @@
         <state line="52" column="0" selection-start="2852" selection-end="2852" vertical-scroll-proportion="0.86467487" vertical-offset="375" max-vertical-offset="969" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SmokeTest/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="2329">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SmokeTest/MobileBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="67" selection-start="1099" selection-end="1099" vertical-scroll-proportion="0.6818182" vertical-offset="122" max-vertical-offset="1020">
@@ -1136,30 +1146,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SmokeTest/Services.java">
+    <entry file="file://$PROJECT_DIR$/src/SmokeTest/Booking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="80" selection-start="4054" selection-end="4054" vertical-scroll-proportion="0.9713805" vertical-offset="596" max-vertical-offset="1496">
+        <state line="23" column="55" selection-start="774" selection-end="774" vertical-scroll-proportion="0.45622894" vertical-offset="120" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SmokeTest/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="19" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.25589225" vertical-offset="392" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../Selenium/selenium-server-standalone-2.50.0.jar!/org/openqa/selenium/internal/SocketLock.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.7768014" vertical-offset="0" max-vertical-offset="569" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SmokeTest/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="748" selection-end="748" vertical-scroll-proportion="0.45714286" vertical-offset="51" max-vertical-offset="2414">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TimeSelect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="28" selection-start="963" selection-end="963" vertical-scroll-proportion="0.6571429" vertical-offset="0" max-vertical-offset="748">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SmokeTest/Resources.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="257" selection-end="257" vertical-scroll-proportion="-0.6" vertical-offset="544" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SmokeTest/OpeningTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="34" selection-start="453" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SmokeTest/BizCommon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="18" selection-start="1167" selection-end="1167" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4845">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SmokeTest/Booking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="61" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="714">
+        <state line="282" column="40" selection-start="13790" selection-end="13790" vertical-scroll-proportion="0.0" vertical-offset="3978" max-vertical-offset="4947">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SmokeTest/SmokeTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="186" selection-end="186" vertical-scroll-proportion="0.28619528" vertical-offset="0" max-vertical-offset="594">
+        <state line="13" column="11" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../Selenium/selenium-server-standalone-2.50.0.jar!/org/openqa/selenium/WebElement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="9" selection-start="267" selection-end="267" vertical-scroll-proportion="0.17894737" vertical-offset="0" max-vertical-offset="731">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SmokeTest/Services.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="67" selection-start="2383" selection-end="2383" vertical-scroll-proportion="0.4184874" vertical-offset="601" max-vertical-offset="1819">
           <folding />
         </state>
       </provider>
@@ -1241,7 +1300,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>java-client-2.1.0</last-edited>
+          <last-edited>selenium-server-standalone-2.50.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

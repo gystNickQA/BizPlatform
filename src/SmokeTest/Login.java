@@ -14,9 +14,14 @@ import static org.junit.Assert.assertEquals;
 public class Login extends BizCommon {
 
     private String login[] = {"incorrectLogin",null,"water_filter@mail.ru"};
-    private String password[] = {"incorrectPass",null,"1"};
+    private String password[] = {"incorrectPass",null,"3"};
     private String correctLogin = "water_filter@mail.ru";
-    private String correctPass = "1";
+    private String correctPass = "3";
+    private String validEmailText = "Please provide a valid email address.";
+    private String incorrectNamePassword = "Incorrect user name or passwrod.";
+    private String requirePass = "Password is required.";
+    private String requireEmail = "Email is required";
+
 
     @Test
     public void testLogin() throws Exception {
@@ -40,8 +45,8 @@ public class Login extends BizCommon {
                 if (login[i] == "incorrectLogin" &&  password[j] == "incorrectPass"){
                     //	Email is required
                     try {
-                        assertEquals("Please provide a valid email address.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
-                        assertEquals("Wrong user password.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
+                        assertEquals(validEmailText, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
+                        assertEquals(incorrectNamePassword, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
                     } catch (Error e) {
                         verificationErrors.append(e.toString());
                     }
@@ -50,9 +55,9 @@ public class Login extends BizCommon {
                 else if (login[i] == "incorrectLogin" && password[j] == null){
                     //	Email is required
                     try {
-                        assertEquals("Please provide a valid email address.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
-                        assertEquals("Password is required.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
-                        assertEquals("Wrong user password.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[3]")).getText());
+                        assertEquals(validEmailText, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
+                        assertEquals(requirePass, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
+                        assertEquals(incorrectNamePassword, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[3]")).getText());
                     } catch (Error e) {
                         verificationErrors.append(e.toString());
                     }
@@ -62,8 +67,8 @@ public class Login extends BizCommon {
                 else if (login[i] == "incorrectLogin" && password[j] == correctPass){
                     //	Email is required
                     try {
-                        assertEquals("Please provide a valid email address.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
-                        assertEquals("Wrong user password.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
+                        assertEquals(validEmailText, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
+                        assertEquals(incorrectNamePassword, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
                     } catch (Error e) {
                         verificationErrors.append(e.toString());
                     }
@@ -73,8 +78,8 @@ public class Login extends BizCommon {
                 else if (login[i] == null && password[j] == "incorrectPass"){
                     //	Email is required
                     try {
-                        assertEquals("Email is required", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
-                        assertEquals("Wrong user password.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
+                        assertEquals(requireEmail, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
+                        assertEquals(incorrectNamePassword, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
                     } catch (Error e) {
                         verificationErrors.append(e.toString());
                     }
@@ -84,9 +89,9 @@ public class Login extends BizCommon {
                 else if (login[i] == null && password[j] == null){
                     //	Email is required
                     try {
-                        assertEquals("Email is required", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
-                        assertEquals("Password is required.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
-                        assertEquals("Wrong user password.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[3]")).getText());
+                        assertEquals(requireEmail, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
+                        assertEquals(requirePass, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
+                        assertEquals(incorrectNamePassword, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[3]")).getText());
                     } catch (Error e) {
                         verificationErrors.append(e.toString());
                     }
@@ -96,8 +101,8 @@ public class Login extends BizCommon {
                 else if (login[i] == null && password[j] == correctPass){
                     //	Email is required
                     try {
-                        assertEquals("Email is required", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
-                        assertEquals("Wrong user password.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
+                        assertEquals(requireEmail, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
+                        assertEquals(incorrectNamePassword, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
                     } catch (Error e) {
                         verificationErrors.append(e.toString());
                     }
@@ -107,7 +112,7 @@ public class Login extends BizCommon {
                 else if (login[i] == correctLogin && password[j] == "incorrectPass"){
                     //	Email is required
                     try {
-                        assertEquals("Wrong user password.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
+                        assertEquals(incorrectNamePassword, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
                     } catch (Error e) {
                         verificationErrors.append(e.toString());
                     }
@@ -117,8 +122,8 @@ public class Login extends BizCommon {
                 else if (login[i] == correctLogin && password[j] == null){
                     //	Email is required
                     try {
-                        assertEquals("Password is required.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
-                        assertEquals("Wrong user password.", driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
+                        assertEquals(requirePass, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[1]")).getText());
+                        assertEquals(incorrectNamePassword, driver.findElement(By.xpath("//div[@class='validation-summary-errors']//li[2]")).getText());
                     } catch (Error e) {
                         verificationErrors.append(e.toString());
                     }
